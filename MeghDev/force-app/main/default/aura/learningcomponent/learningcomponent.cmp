@@ -1,0 +1,8 @@
+<aura:component implements="force:appHostable,flexipage:availableForRecordHome,force:lightningQuickActionWithoutHeader,force:hasRecordId,flexipage:availableForAllPageTypes,lightning:actionOverride,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:appHostable" >
+	<lightning:select name="select1" label="How many tickets?" required="true">
+        <option value="">choose one option...</option>
+        <option value="1">one</option>
+        <option value="2">two</option>
+        <option value="3">three</option>
+    </lightning:select>
+</aura:component>

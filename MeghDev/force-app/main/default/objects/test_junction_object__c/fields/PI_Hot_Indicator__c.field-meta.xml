@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PI_Hot_Indicator__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL( History_Type__c , &quot;ABC&quot;), &apos;Y&apos;, &apos;N&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>PI Hot Indicator</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
